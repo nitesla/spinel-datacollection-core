@@ -8,7 +8,7 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sabi.core</groupId>
+	<groupId>com.spinel.core</groupId>
 	<artifactId>spinel-datacollection-core</artifactId>
 	<version>1.0</version>
 	<name>spinel-datacollection-core</name>
