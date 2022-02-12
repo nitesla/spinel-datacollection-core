@@ -20,6 +20,7 @@ pom.xml
 *.iml
 *.ipr
 application-local.properties
+workspace.xml
 
 ### NetBeans ###
 /nbproject/private/
