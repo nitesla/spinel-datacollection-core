@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4e4a767-48ba-4e96-bbe3-04fadcb7d79b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/request/BankDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/request/CountryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/request/LGADto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/request/StateDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/response/BankResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/response/CountryResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/response/LGAResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/dto/response/StateResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/models/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/models/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/models/LGA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spinel/datacollection/core/models/State.java" afterDir="false" />
+    <list default="true" id="c4e4a767-48ba-4e96-bbe3-04fadcb7d79b" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +60,19 @@
       <command value="mvn install" />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +86,8 @@
       <workItem from="1644646820983" duration="748000" />
       <workItem from="1644648348222" duration="7167000" />
       <workItem from="1644737273944" duration="6000" />
-      <workItem from="1644737330460" duration="1405000" />
+      <workItem from="1644737330460" duration="2418000" />
+      <workItem from="1644745323911" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644644593066</created>
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644659739549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1644740653122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644740653122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
