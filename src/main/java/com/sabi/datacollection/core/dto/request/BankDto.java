@@ -1,10 +1,10 @@
-package com.spinel.datacollection.core.dto.request;
+package com.sabi.datacollection.core.dto.request;
 
 
 import lombok.Data;
 
 @Data
-public class CountryDto {
+public class BankDto {
 
     private Long id;
 

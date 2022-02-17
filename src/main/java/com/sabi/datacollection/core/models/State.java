@@ -1,6 +1,7 @@
-package com.spinel.datacollection.core.models;
+package com.sabi.datacollection.core.models;
 
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -14,24 +15,23 @@ import javax.persistence.Transient;
  * This class is responsible for persisting to the database
  */
 
-
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
-public class LGA extends CoreEntity {
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class State extends CoreEntity {
 
 
     private String name;
+    private Long countryId;
 
-    private Long stateId;
-
-
-    public LGA(String name, Long stateId) {
-        this.name = name;
-        this.stateId = stateId;
-    }
     @Transient
-    private String stateName;
+    private String countryName;
 
+
+    public State(String name, Long countryId) {
+        this.name = name;
+        this.countryId = countryId;
+    }
 }

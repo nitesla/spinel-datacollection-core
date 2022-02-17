@@ -1,29 +1,22 @@
-package com.spinel.datacollection.core.dto.response;
+package com.sabi.datacollection.core.dto.response;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class LGAResponseDto {
-
+public class StateResponseDto {
 
     private Long id;
+
     private String name;
 
-    private long stateId;
+    private Long countryId;
 
-    private String stateName;
+    private String countryName;
 
     private LocalDateTime createdDate;
 

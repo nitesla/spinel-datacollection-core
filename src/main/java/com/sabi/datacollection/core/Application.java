@@ -1,4 +1,4 @@
-package com.spinel.datacollection.core;
+package com.sabi.datacollection.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
