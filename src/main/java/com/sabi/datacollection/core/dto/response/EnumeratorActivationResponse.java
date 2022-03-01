@@ -7,28 +7,16 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class BankResponseDto {
+public class EnumeratorActivationResponse {
 
-    private Long id;
+    private Long userId;
+    private Long enumeratorId;
+    private String phone;
+    private String email;
 
-    private String name;
-
-    private String code;
-
-    private LocalDateTime createdDate;
-
-    private LocalDateTime updatedDate;
-
-    private Long createdBy;
-
-    private Long updatedBy;
-
-    private Boolean isActive;
 }
