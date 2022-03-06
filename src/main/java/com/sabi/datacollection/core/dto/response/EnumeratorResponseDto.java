@@ -31,5 +31,7 @@ public class EnumeratorResponseDto {
     private Long updatedBy;
     private Boolean isActive;
 
+    private String organisationType;
+
 
 }

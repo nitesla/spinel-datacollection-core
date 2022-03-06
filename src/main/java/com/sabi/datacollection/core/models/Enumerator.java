@@ -40,5 +40,8 @@ public class Enumerator extends CoreEntity {
     @Transient
     private String state;
 
+    @Transient
+    private String organisationType;
+
 
 }
