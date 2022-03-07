@@ -29,8 +29,6 @@ public class ProjectOwner extends CoreEntity {
     private String email;
     private String website;
     private LocalDateTime registeredDate;
-    private String registrationToken;
-    private String registrationTokenExpiration;
     private Boolean isCorp;
     private String corporateName;
 
