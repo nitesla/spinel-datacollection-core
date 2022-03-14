@@ -31,14 +31,15 @@ public class Enumerator extends CoreEntity {
     private String phone;
     private String email;
     private LocalDateTime registrationDate = LocalDateTime.now();
-    private String registrationToken;
-    private String registrationTokenExpiration;
 
     @Transient
     private String lga;
 
     @Transient
     private String state;
+
+    @Transient
+    private String organisationType;
 
 
 }
