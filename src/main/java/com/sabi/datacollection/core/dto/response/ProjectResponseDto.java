@@ -1,6 +1,5 @@
 package com.sabi.datacollection.core.dto.response;
 
-import com.sabi.datacollection.core.enums.Status;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -22,4 +21,6 @@ public class ProjectResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private String projectOwner;
+    private String projectCategory;
 }

@@ -9,6 +9,8 @@ public class ProjectIndicatorResponseDto {
     private Long id;
     private Long projectId;
     private Long indicatorId;
+    private String project;
+    private String indicator;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

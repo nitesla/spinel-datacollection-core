@@ -4,6 +4,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -14,4 +15,10 @@ import javax.persistence.Entity;
 public class ProjectIndicator extends CoreEntity {
     private Long projectId;
     private Long indicatorId;
+
+    @Transient
+    private String project;
+
+    @Transient
+    private String indicator;
 }
