@@ -10,6 +10,7 @@ public class PricingConfigurationResponseDto {
     private Long id;
     private BigDecimal price;
     private Long dataSetId;
+    private String dataSet;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

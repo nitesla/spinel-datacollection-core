@@ -10,6 +10,7 @@ public class ProjectCategoryResponseDto {
     private String name;
     private String description;
     private Long projectOwnerId;
+    private String projectOwner;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

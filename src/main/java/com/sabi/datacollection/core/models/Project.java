@@ -5,6 +5,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
 @NoArgsConstructor
@@ -23,4 +24,10 @@ public class Project extends CoreEntity {
     private String imageQuality;
     private Boolean isLocationBased;
     private Long projectOwnerId;
+
+    @Transient
+    private String projectOwner;
+
+    @Transient
+    private String projectCategory;
 }
