@@ -7,18 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sabi-logistic-core" />
         <module name="spinel-datacollection-core" />
+        <module name="sabi-datacollection-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sabi-logistic-core" target="1.8" />
+      <module name="sabi-datacollection-core" target="1.8" />
       <module name="spinel-datacollection-core" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="sabi-logistic-core" options="-parameters" />
+      <module name="sabi-datacollection-core" options="-parameters" />
       <module name="spinel-datacollection-core" options="-parameters" />
     </option>
   </component>
