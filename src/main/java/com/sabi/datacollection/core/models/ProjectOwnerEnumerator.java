@@ -7,13 +7,16 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
-public class DataSet extends CoreEntity {
-    private String name;
-    private String description;
+public class ProjectOwnerEnumerator extends CoreEntity {
+    private Long projectOwnerId;
+    private Long enumeratorId;
+    private LocalDateTime dateJoined;
+    private String status;
 }

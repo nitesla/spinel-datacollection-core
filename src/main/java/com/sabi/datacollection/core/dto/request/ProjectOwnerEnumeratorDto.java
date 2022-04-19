@@ -5,12 +5,16 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Builder
-public class DataSetDto {
+public class ProjectOwnerEnumeratorDto {
     private Long id;
-    private String name;
-    private String description;
+    private Long projectOwnerId;
+    private Long enumeratorId;
+    private LocalDateTime dateJoined;
+    private String status;
 }

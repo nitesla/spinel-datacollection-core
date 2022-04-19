@@ -5,10 +5,9 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Data
-public class DataSetResponseDto {
-    private Long id;
-    private String name;
-    private String description;
+public class DataRolePermissionResponseDto {
+    private Long roleId;
+    private Long permissionId;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
