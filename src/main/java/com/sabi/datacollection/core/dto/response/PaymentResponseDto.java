@@ -1,4 +1,4 @@
-package com.sabi.datacollection.core.dto.request;
+package com.sabi.datacollection.core.dto.response;
 
 import lombok.Data;
 
@@ -7,29 +7,19 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
-public class PaymentRequestDto {
-    @NotBlank()
+public class PaymentResponseDto {
+    private Long id;
     private String redirectURL;
-    @NotBlank()
     private Long transactionId;
-    @NotBlank()
     private String paymentReference;
-    @NotBlank()
-    private String status;
-    @NotBlank()
+    private String reference;
+    private String Status;
     private int paymentMethod;
-    @NotBlank()
     private String responseCode;
-    @NotBlank()
     private String responseDescription;
-    @NotBlank()
     private String email;
-    @NotBlank()
     private String paymentMethodDescription;
-    @NotBlank()
     private LocalDateTime transactionDate;
-    @NotBlank()
     private BigDecimal amountVerified;
-    @NotBlank()
     private BigDecimal amount;
 }
