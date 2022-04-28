@@ -13,4 +13,5 @@ public class DataSetDto {
     private Long id;
     private String name;
     private String description;
+    private Boolean isEnabled;
 }

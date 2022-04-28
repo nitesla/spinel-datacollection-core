@@ -9,6 +9,7 @@ public class DataSetResponseDto {
     private Long id;
     private String name;
     private String description;
+    private Boolean isEnabled;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
