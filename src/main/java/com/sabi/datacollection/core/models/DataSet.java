@@ -16,4 +16,5 @@ import javax.persistence.Entity;
 public class DataSet extends CoreEntity {
     private String name;
     private String description;
+    private Boolean isEnabled;
 }
