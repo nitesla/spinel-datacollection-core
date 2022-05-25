@@ -23,4 +23,7 @@ public class ProjectResponseDto {
     private Boolean isActive;
     private String projectOwner;
     private String projectCategory;
+    private String projectCategoryDescription;
+    private int projectCount;
+    private String clientType;
 }

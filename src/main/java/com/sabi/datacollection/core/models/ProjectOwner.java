@@ -36,5 +36,9 @@ public class ProjectOwner extends CoreEntity {
     private String lga;
     @Transient
     private String organisationType;
+    @Transient
+    private boolean userIsActive;
+    @Transient
+    private int projectCount;
 
 }

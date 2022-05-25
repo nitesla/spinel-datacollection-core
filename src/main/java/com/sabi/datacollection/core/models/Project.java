@@ -24,10 +24,16 @@ public class Project extends CoreEntity {
     private String imageQuality;
     private Boolean isLocationBased;
     private Long projectOwnerId;
+    private String description;
 
     @Transient
     private String projectOwner;
-
     @Transient
     private String projectCategory;
+    @Transient
+    private String projectCategoryDescription;
+    @Transient
+    private int projectCount;
+    @Transient
+    private String clientType;
 }
