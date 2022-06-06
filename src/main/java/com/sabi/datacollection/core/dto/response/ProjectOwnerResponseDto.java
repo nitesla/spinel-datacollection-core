@@ -31,5 +31,6 @@ public class ProjectOwnerResponseDto {
     private Boolean isActive;
     private boolean userIsActive;
     private int projectCount;
+    private String accountManager;
 
 }
