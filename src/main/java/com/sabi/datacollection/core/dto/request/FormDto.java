@@ -4,7 +4,6 @@ package com.sabi.datacollection.core.dto.request;
 import lombok.Data;
 
 
-
 @Data
 public class FormDto {
 
@@ -14,5 +13,6 @@ public class FormDto {
     private String version;
     private String description;
     private String formField;
+    private Long projectOwnerId;
 
 }
