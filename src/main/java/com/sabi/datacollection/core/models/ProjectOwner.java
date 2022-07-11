@@ -31,6 +31,7 @@ public class ProjectOwner extends CoreEntity {
     private LocalDateTime registeredDate;
     private Boolean isCorp;
     private String corporateName;
+    private String accountManager;
 
     @Transient
     private String lga;

@@ -13,4 +13,5 @@ public class ProjectOwnerSignUpDto {
     private Boolean isCorp;
     private String corporateName;
     private Long organisationTypeId;
+    private String accountManager;
 }
