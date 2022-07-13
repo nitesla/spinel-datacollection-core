@@ -29,4 +29,8 @@ public class ProjectOwnerResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private boolean userIsActive;
+    private int projectCount;
+    private String accountManager;
+
 }

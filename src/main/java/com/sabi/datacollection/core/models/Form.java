@@ -21,6 +21,7 @@ public class Form extends CoreEntity {
     private String version;
     private String description;
     private String formField;
+    private Long projectOwnerId;
 
     @Override
     public boolean equals(Object o) {

@@ -17,8 +17,5 @@ import javax.persistence.Transient;
 public class ProjectCategory extends CoreEntity {
     private String name;
     private String description;
-    private Long projectOwnerId;
 
-    @Transient
-    private String projectOwner;
 }
