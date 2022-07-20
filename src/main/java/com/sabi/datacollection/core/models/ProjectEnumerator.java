@@ -32,5 +32,13 @@ public class ProjectEnumerator extends CoreEntity {
     private String projectCount;
     @Transient
     private String email;
+    @Transient
+    private String role;
+    @Transient
+    private String rating;
+    @Transient
+    private String efficiency;
+    @Transient
+    private String picture;
 
 }

@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 
 
 @Data
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class EnumeratorResponseDto {
 
     private Long id;
@@ -24,6 +23,14 @@ public class EnumeratorResponseDto {
     private String corporateName;
     private String phone;
     private String email;
+    private String linkedIn;
+    private String twitter;
+    private String facebook;
+    private String instagram;
+    private String country;
+    private String gender;
+    private String efficiency;
+    private String role;
     private LocalDateTime registrationDate;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;

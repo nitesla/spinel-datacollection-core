@@ -23,6 +23,7 @@ public class Enumerator extends CoreEntity {
     private String cac;
     private String pictureUrl;
     private Long lgaId;
+    private Long countryId;
     private String address;
     private boolean isCorp;
     private Long organisationTypeId;
@@ -30,6 +31,16 @@ public class Enumerator extends CoreEntity {
     private String corporateName;
     private String phone;
     private String email;
+    private String gender;
+    private String efficiency;
+    private String linkedIn;
+    private String twitter;
+    private String facebook;
+    private String instagram;
+    private String BVN;
+    private String idType;
+    private String frontOfId;
+    private String backOfId;
     private LocalDateTime registrationDate = LocalDateTime.now();
 
     @Transient
@@ -37,6 +48,9 @@ public class Enumerator extends CoreEntity {
 
     @Transient
     private String state;
+
+    @Transient
+    private String country;
 
     @Transient
     private String organisationType;
