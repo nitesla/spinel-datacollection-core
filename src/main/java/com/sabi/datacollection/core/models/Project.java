@@ -36,4 +36,6 @@ public class Project extends CoreEntity {
     private int projectCount;
     @Transient
     private String clientType;
+    @Transient
+    private String pictureUrl;
 }
