@@ -18,6 +18,8 @@ public class Enumerator extends CoreEntity {
 
     @Column(updatable= false)
     private long userId;
+    private String firstName;
+    private String lastName;
     private String referralCode;
     private int rating;
     private String cac;
