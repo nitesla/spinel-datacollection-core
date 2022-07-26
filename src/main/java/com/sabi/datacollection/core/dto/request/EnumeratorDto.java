@@ -22,6 +22,8 @@ public class EnumeratorDto {
     private String email;
     private String registrationToken;
     private String registrationTokenExpiration;
+    private String firstName;
+    private String lastName;
 
 
 }

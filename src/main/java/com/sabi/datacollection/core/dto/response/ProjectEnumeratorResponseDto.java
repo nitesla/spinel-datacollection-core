@@ -2,6 +2,7 @@ package com.sabi.datacollection.core.dto.response;
 
 import lombok.Data;
 
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
 
@@ -15,4 +16,15 @@ public class ProjectEnumeratorResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private String phoneNumber;
+    private String firstName;
+    private String lastName;
+    private String location;
+    private String description;
+    private String projectCount;
+    private String email;
+    private String role;
+    private String rating;
+    private String efficiency;
+    private String picture;
 }

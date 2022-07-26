@@ -26,4 +26,6 @@ public class ProjectResponseDto {
     private String projectCategoryDescription;
     private int projectCount;
     private String clientType;
+    private String description;
+    private String pictureUrl;
 }
