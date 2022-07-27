@@ -1,6 +1,7 @@
 package com.sabi.datacollection.core.models;
 
 
+import com.sabi.datacollection.core.enums.EnumeratorStatus;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -19,6 +20,7 @@ public class Enumerator extends CoreEntity {
     @Column(updatable= false)
     private long userId;
     private String referralCode;
+    private EnumeratorStatus status;
     private int rating;
     private String cac;
     private String pictureUrl;
