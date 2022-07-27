@@ -20,7 +20,7 @@ public class Enumerator extends CoreEntity {
     private long userId;
     private String firstName;
     private String lastName;
-    private long projectRoleId;
+    private Long projectRoleId;
     private String referralCode;
     private int rating;
     private String cac;
