@@ -21,4 +21,5 @@ public class EnumeratorSignUpResponseDto {
     private String phone;
     private String corporateName;
     private String username;
+    private Long projectRoleId;
 }

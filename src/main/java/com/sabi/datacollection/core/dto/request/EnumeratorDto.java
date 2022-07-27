@@ -13,6 +13,7 @@ public class EnumeratorDto {
     private String cac;
     private String pictureUrl;
     private Long lgaId;
+    private Long projectRoleId;
     private String address;
     private Boolean isCorp;
     private Long organisationTypeId;

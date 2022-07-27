@@ -16,6 +16,7 @@ public class EnumeratorResponseDto {
     private String cac;
     private String pictureUrl;
     private Long lgaId;
+    private Long projectRoleId;
     private String address;
     private boolean isCorp;
     private Long organisationTypeId;
@@ -30,13 +31,15 @@ public class EnumeratorResponseDto {
     private String country;
     private String gender;
     private String efficiency;
-    private String role;
+    private String projectRole;
     private LocalDateTime registrationDate;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private String firstName;
+    private String lastName;
 
     private String organisationType;
 

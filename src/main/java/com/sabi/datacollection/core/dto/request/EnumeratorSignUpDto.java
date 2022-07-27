@@ -15,4 +15,5 @@ public class EnumeratorSignUpDto {
     private Boolean isCorp;
     private String corporateName;
     private Long organisationTypeId;
+    private Long projectRoleId;
 }
