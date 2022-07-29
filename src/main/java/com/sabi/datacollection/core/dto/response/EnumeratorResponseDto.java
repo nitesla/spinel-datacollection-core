@@ -40,6 +40,7 @@ public class EnumeratorResponseDto {
     private Boolean isActive;
     private String firstName;
     private String lastName;
+    private String verificationStatus;
 
     private String organisationType;
 

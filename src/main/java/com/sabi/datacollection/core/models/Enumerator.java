@@ -44,6 +44,7 @@ public class Enumerator extends CoreEntity {
     private String idType;
     private String frontOfId;
     private String backOfId;
+    private String verificationStatus;
     private LocalDateTime registrationDate = LocalDateTime.now();
 
     @Transient
