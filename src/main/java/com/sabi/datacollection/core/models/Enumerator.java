@@ -2,6 +2,7 @@ package com.sabi.datacollection.core.models;
 
 
 import com.sabi.datacollection.core.enums.EnumeratorStatus;
+import com.sabi.datacollection.core.enums.VerificationStatus;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -43,6 +44,7 @@ public class Enumerator extends CoreEntity {
     private String idType;
     private String frontOfId;
     private String backOfId;
+    private VerificationStatus verification;
     private LocalDateTime registrationDate = LocalDateTime.now();
 
     @Transient

@@ -2,6 +2,7 @@ package com.sabi.datacollection.core.dto.response;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.sabi.datacollection.core.enums.VerificationStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -29,5 +30,6 @@ public class CompleteSignUpResponse {
     private String lastName;
     private String userPhone;
     private String userName;
+    private VerificationStatus verification;
 
 }

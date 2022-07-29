@@ -1,6 +1,7 @@
 package com.sabi.datacollection.core.dto.request;
 
 
+import com.sabi.datacollection.core.enums.VerificationStatus;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -28,4 +29,5 @@ public class CompleteSignupRequest {
     private LocalDateTime registrationDate = LocalDateTime.now();
     private String registrationToken;
     private String registrationTokenExpiration;
+    private VerificationStatus verification;
 }

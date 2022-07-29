@@ -14,6 +14,8 @@ public class EnumeratorProjectResponseDto {
     private LocalDateTime completedDate;
     private Status status;
     private Boolean isLocationBound;
+    private String timeLine;
+    private long submission;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

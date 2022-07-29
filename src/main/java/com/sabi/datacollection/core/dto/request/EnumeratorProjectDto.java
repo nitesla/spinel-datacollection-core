@@ -20,4 +20,6 @@ public class EnumeratorProjectDto {
     private LocalDateTime completedDate;
     private Status status;
     private Boolean isLocationBound;
+    private String timeLine;
+    private long submission;
 }

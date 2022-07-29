@@ -1,6 +1,7 @@
 package com.sabi.datacollection.core.dto.request;
 
 
+import com.sabi.datacollection.core.enums.VerificationStatus;
 import lombok.Data;
 
 
@@ -14,5 +15,6 @@ public class EnumeratorSignUpDto {
     private String password;
     private Boolean isCorp;
     private String corporateName;
+//    private VerificationStatus verification;
     private Long organisationTypeId;
 }

@@ -27,4 +27,6 @@ public class ProjectEnumeratorResponseDto {
     private String rating;
     private String efficiency;
     private String picture;
+    private String timeLine;
+    private String submission;
 }

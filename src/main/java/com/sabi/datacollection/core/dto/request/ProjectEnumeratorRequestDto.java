@@ -13,4 +13,6 @@ public class ProjectEnumeratorRequestDto {
     private Long id;
     private Long projectId;
     private Long enumeratorId;
+    private String timeLine;
+    private int submission;
 }
