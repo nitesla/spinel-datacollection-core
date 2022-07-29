@@ -20,6 +20,9 @@ public class Enumerator extends CoreEntity {
 
     @Column(updatable= false)
     private long userId;
+    private String firstName;
+    private String lastName;
+    private Long projectRoleId;
     private String referralCode;
     private EnumeratorStatus status;
     private int rating;
@@ -44,7 +47,7 @@ public class Enumerator extends CoreEntity {
     private String idType;
     private String frontOfId;
     private String backOfId;
-    private VerificationStatus verification;
+    private String verificationStatus;
     private LocalDateTime registrationDate = LocalDateTime.now();
 
     @Transient
@@ -58,6 +61,9 @@ public class Enumerator extends CoreEntity {
 
     @Transient
     private String organisationType;
+
+    @Transient
+    private String projectRole;
 
 
 }

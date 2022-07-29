@@ -26,6 +26,7 @@ public class CompleteSignupRequest {
     private String twitter;
     private String facebook;
     private String instagram;
+    private String verificationStatus;
     private LocalDateTime registrationDate = LocalDateTime.now();
     private String registrationToken;
     private String registrationTokenExpiration;

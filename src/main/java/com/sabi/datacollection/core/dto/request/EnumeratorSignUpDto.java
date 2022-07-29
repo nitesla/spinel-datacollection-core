@@ -17,4 +17,5 @@ public class EnumeratorSignUpDto {
     private String corporateName;
 //    private VerificationStatus verification;
     private Long organisationTypeId;
+    private Long projectRoleId;
 }
