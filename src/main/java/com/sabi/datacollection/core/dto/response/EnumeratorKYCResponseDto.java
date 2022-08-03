@@ -1,8 +1,6 @@
 package com.sabi.datacollection.core.dto.response;
 
-
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sabi.datacollection.core.enums.VerificationStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,15 +11,16 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class EnumeratorSignUpResponseDto {
-    private Long id;
-    private Long enumeratorId;
+public class EnumeratorKYCResponseDto {
+
     private String firstName;
     private String lastName;
-    private String email;
+    private String pictureUrl;
     private String phone;
-    private String corporateName;
-    private String username;
-    private Long projectRoleId;
-    private VerificationStatus verification;
+    private String email;
+    private String gender;
+    private String verificationStatus;
+    private String address;
+    private String idCardNumber;
+    private String cardImage;
 }

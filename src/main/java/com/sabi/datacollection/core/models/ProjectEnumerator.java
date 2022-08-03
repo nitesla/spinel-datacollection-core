@@ -1,5 +1,6 @@
 package com.sabi.datacollection.core.models;
 
+import com.sabi.datacollection.core.enums.VerificationStatus;
 import com.sabi.framework.models.CoreEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -40,5 +41,7 @@ public class ProjectEnumerator extends CoreEntity {
     private String efficiency;
     @Transient
     private String picture;
+    @Transient
+    private VerificationStatus verification;
 
 }
