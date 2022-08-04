@@ -13,6 +13,7 @@ public class FormDto {
     private String version;
     private String description;
     private String formField;
-    private Long projectOwnerId;
+    private Long userId;
+    private boolean isPublic;
 
 }

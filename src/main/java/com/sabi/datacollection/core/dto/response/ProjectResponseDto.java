@@ -2,6 +2,7 @@ package com.sabi.datacollection.core.dto.response;
 
 import lombok.Data;
 
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
 @Data
@@ -28,4 +29,8 @@ public class ProjectResponseDto {
     private String clientType;
     private String description;
     private String pictureUrl;
+    @Transient
+    private Long projectFormId;
+    private Boolean isPublic;
+    private Boolean isOpened;
 }

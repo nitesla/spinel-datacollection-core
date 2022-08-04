@@ -26,6 +26,12 @@ public class Project extends CoreEntity {
     private Long projectOwnerId;
     private String description;
 
+    private Boolean isPublic;
+    private Boolean isOpened;
+    @Transient
+    private Long projectFormId;
+
+
     @Transient
     private String projectOwner;
     @Transient

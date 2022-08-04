@@ -24,6 +24,8 @@ misc.xml
 *.ipr
 application-local.properties
 *workspace.xml
+jarRepositories.xml
+encodings.xml
 
 ### NetBeans ###
 /nbproject/private/
