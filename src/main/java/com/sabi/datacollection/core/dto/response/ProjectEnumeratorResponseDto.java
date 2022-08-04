@@ -1,5 +1,6 @@
 package com.sabi.datacollection.core.dto.response;
 
+import com.sabi.datacollection.core.enums.VerificationStatus;
 import lombok.Data;
 
 import javax.persistence.Transient;
@@ -29,4 +30,5 @@ public class ProjectEnumeratorResponseDto {
     private String picture;
     private String timeLine;
     private String submission;
+    private VerificationStatus verification;
 }
