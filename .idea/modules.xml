@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sabi-datacollection-core.iml" filepath="$PROJECT_DIR$/sabi-datacollection-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spinel-datacollection-core.iml" filepath="$PROJECT_DIR$/.idea/spinel-datacollection-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinel-datacollection-core.iml" filepath="$PROJECT_DIR$/spinel-datacollection-core.iml" />
     </modules>
   </component>
 </project>

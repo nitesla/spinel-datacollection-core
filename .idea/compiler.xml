@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spinel-datacollection-core" />
-        <module name="sabi-datacollection-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
