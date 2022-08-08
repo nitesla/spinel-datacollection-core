@@ -29,4 +29,6 @@ public class ProjectOwnerDto {
     private String registrationToken;
     private LocalDateTime registrationTokenExpiration;
     private Boolean isCorp;
+    private String idCard;
+    private String idNumber;
 }

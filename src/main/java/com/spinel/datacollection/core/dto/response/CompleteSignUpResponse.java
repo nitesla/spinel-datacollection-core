@@ -31,5 +31,7 @@ public class CompleteSignUpResponse {
     private String userPhone;
     private String userName;
     private VerificationStatus verification;
+    private String idCard;
+    private String idNumber;
 
 }
