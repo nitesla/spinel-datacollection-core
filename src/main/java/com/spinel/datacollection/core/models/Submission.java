@@ -1,7 +1,7 @@
 package com.spinel.datacollection.core.models;
 
 
-import com.spinel.datacollection.core.enums.Status;
+import com.spinel.datacollection.core.enums.SubmissionStatus;
 import com.spinel.framework.models.CoreEntity;
 import lombok.*;
 import org.hibernate.Hibernate;
@@ -22,7 +22,7 @@ public class Submission extends CoreEntity {
 
     private long projectId;
     private Long formId;
-    private Status status;
+    private SubmissionStatus status;
     private Long enumeratorId;
     private LocalDateTime submissionDate;
     private Long commentId;

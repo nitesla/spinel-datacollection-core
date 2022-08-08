@@ -1,7 +1,8 @@
 package com.spinel.datacollection.core.enums;
 
 public enum Status {
-    PENDING,
+    DRAFT,
+    INACTIVE,
     ONGOING,
     COMPLETED,
     SUSPENDED,

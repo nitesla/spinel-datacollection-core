@@ -2,7 +2,7 @@ package com.spinel.datacollection.core.dto.response;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.spinel.datacollection.core.enums.Status;
+import com.spinel.datacollection.core.enums.SubmissionStatus;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -16,7 +16,7 @@ public class SubmissionResponseDto {
 
     private Long projectId;
     private Long formId;
-    private Status status;
+    private SubmissionStatus status;
     private Long enumeratorId;
     private Boolean isActive;
     private LocalDateTime submissionDate;

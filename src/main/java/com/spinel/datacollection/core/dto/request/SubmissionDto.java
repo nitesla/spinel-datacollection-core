@@ -1,7 +1,7 @@
 package com.spinel.datacollection.core.dto.request;
 
 
-import com.spinel.datacollection.core.enums.Status;
+import com.spinel.datacollection.core.enums.SubmissionStatus;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -13,7 +13,7 @@ public class SubmissionDto {
     private Long id;
     private Long projectId;
     private Long formId;
-    private Status status;
+    private SubmissionStatus status;
     private Long enumeratorId;
     private Boolean isActive;
     private LocalDateTime submissionDate;
