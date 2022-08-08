@@ -31,4 +31,6 @@ public class CompleteSignupRequest {
     private String registrationToken;
     private String registrationTokenExpiration;
     private VerificationStatus verification;
+    private String idCard;
+    private String idNumber;
 }
