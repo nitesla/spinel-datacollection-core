@@ -4,6 +4,10 @@ package com.spinel.datacollection.core.dto.response;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.spinel.datacollection.core.enums.ActionType;
 import lombok.Data;
+import com.spinel.datacollection.core.enums.ActionType;
+import com.spinel.datacollection.core.enums.Status;
+import com.spinel.datacollection.core.enums.TransactionType;
+
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;

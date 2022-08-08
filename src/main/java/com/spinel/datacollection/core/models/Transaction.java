@@ -2,7 +2,10 @@ package com.spinel.datacollection.core.models;
 
 
 import com.spinel.datacollection.core.enums.ActionType;
+import com.spinel.datacollection.core.enums.Status;
+import com.spinel.datacollection.core.enums.TransactionType;
 import com.spinel.framework.models.CoreEntity;
+import com.spinel.framework.models.User;
 import lombok.*;
 import org.hibernate.Hibernate;
 

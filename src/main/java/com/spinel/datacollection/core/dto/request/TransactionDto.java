@@ -2,9 +2,9 @@ package com.spinel.datacollection.core.dto.request;
 
 
 import com.spinel.datacollection.core.enums.ActionType;
-import com.sabi.datacollection.core.enums.ActionType;
-import com.sabi.datacollection.core.enums.Status;
-import com.sabi.datacollection.core.enums.TransactionType;
+import com.spinel.datacollection.core.enums.ActionType;
+import com.spinel.datacollection.core.enums.Status;
+import com.spinel.datacollection.core.enums.TransactionType;
 import lombok.Data;
 
 import java.math.BigDecimal;
