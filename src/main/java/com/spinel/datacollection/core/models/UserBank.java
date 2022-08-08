@@ -1,6 +1,6 @@
 package com.sabi.datacollection.core.models;
 
-import com.sabi.framework.models.CoreEntity;
+import com.spinel.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;

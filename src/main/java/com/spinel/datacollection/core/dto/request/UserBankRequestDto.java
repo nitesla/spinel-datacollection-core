@@ -1,4 +1,4 @@
-package com.sabi.datacollection.core.dto.request;
+package com.spinel.datacollection.core.dto.request;
 
 
 import lombok.*;

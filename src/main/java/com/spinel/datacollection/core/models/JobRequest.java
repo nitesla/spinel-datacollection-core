@@ -1,7 +1,7 @@
-package com.sabi.datacollection.core.models;
+package com.spinel.datacollection.core.models;
 
 import com.sabi.datacollection.core.enums.GeneralStatus;
-import com.sabi.framework.models.CoreEntity;
+import com.spinel.framework.models.CoreEntity;
 import lombok.*;
 import org.hibernate.Hibernate;
 
