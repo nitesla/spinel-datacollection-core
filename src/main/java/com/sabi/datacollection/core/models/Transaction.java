@@ -2,11 +2,17 @@ package com.sabi.datacollection.core.models;
 
 
 import com.sabi.datacollection.core.enums.ActionType;
+import com.sabi.datacollection.core.enums.Status;
+import com.sabi.datacollection.core.enums.TransactionType;
 import com.sabi.framework.models.CoreEntity;
+import com.sabi.framework.models.User;
 import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 import java.util.Objects;
 
@@ -21,11 +27,27 @@ public class Transaction extends CoreEntity {
 
     private String hash;
     private Long walletId;
+    @Enumerated(EnumType.STRING)
     private ActionType actionType;
     private BigDecimal amount;
     private BigDecimal initialBalance;
     private BigDecimal finalBalance;
     private String reference;
+    private Long senderId;
+    private Long receiverId;
+    @Enumerated(EnumType.STRING)
+    private TransactionType transactionType;
+    @Enumerated(EnumType.STRING)
+    private Status status;
+
+    @Transient
+    private Wallet wallet;
+
+    @Transient
+    private User sender;
+
+    @Transient
+    private User receiver;
 
     @Override
     public boolean equals(Object o) {

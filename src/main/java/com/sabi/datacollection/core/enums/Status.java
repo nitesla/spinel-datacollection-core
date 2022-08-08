@@ -5,5 +5,6 @@ public enum Status {
     ONGOING,
     COMPLETED,
     SUSPENDED,
-    ASSIGNED
+    ASSIGNED,
+    FAILED
 }
