@@ -1,4 +1,4 @@
-package com.sabi.datacollection.core.models;
+package com.spinel.datacollection.core.models;
 
 import com.spinel.framework.models.CoreEntity;
 import lombok.*;
