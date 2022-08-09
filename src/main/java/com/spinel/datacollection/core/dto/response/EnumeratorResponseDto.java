@@ -16,6 +16,7 @@ public class EnumeratorResponseDto {
     private String cac;
     private String pictureUrl;
     private Long lgaId;
+    private Long userBankId;
     private Long projectRoleId;
     private String address;
     private boolean isCorp;

@@ -30,6 +30,7 @@ public class Enumerator extends CoreEntity {
     private String pictureUrl;
     private Long lgaId;
     private Long countryId;
+    private Long userBankId;
     private String address;
     private boolean isCorp;
     private Long organisationTypeId;

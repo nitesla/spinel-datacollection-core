@@ -16,6 +16,7 @@ public class ProjectOwnerDto {
     private Long organisationTypeId;
     private Long userId;
     private Long lgaId;
+    private Long userBankId;
     private String firstname;
     private String lastname;
     private String address;
