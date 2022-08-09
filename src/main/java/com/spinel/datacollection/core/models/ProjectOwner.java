@@ -34,6 +34,8 @@ public class ProjectOwner extends CoreEntity {
     private Boolean isCorp;
     private String corporateName;
     private String accountManager;
+    private String idCard;
+    private String idNumber;
 
     @Transient
     private String lga;
