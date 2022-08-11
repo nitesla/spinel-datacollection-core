@@ -10,6 +10,7 @@ public class ProjectOwnerSignUpDto {
     private String email;
     private String phone;
     private String password;
+    private Long userBankId;
     private Boolean isCorp;
     private String corporateName;
     private Long organisationTypeId;

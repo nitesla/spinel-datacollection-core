@@ -18,5 +18,6 @@ public class ProjectOwnerSignUpResponseDto {
     private String phone;
     private String corporateName;
     private String username;
+    private Long userBankId;
     private String accountManager;
 }
