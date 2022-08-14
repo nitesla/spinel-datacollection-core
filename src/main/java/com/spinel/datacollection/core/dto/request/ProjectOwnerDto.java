@@ -16,7 +16,6 @@ public class ProjectOwnerDto {
     private Long organisationTypeId;
     private Long userId;
     private Long lgaId;
-    private Long userBankId;
     private String firstname;
     private String lastname;
     private String address;
@@ -30,6 +29,5 @@ public class ProjectOwnerDto {
     private String registrationToken;
     private LocalDateTime registrationTokenExpiration;
     private Boolean isCorp;
-    private String idCard;
-    private String idNumber;
+    private String corporateName;
 }
