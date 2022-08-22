@@ -14,6 +14,7 @@ public class EnumeratorDto {
     private String pictureUrl;
     private Long lgaId;
     private Long projectRoleId;
+    private Long userBankId;
     private String address;
     private Boolean isCorp;
     private Long organisationTypeId;

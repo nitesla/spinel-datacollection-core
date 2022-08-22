@@ -18,6 +18,7 @@ public class ProjectOwnerResponseDto {
     private Long lgaId;
     private Long stateId;
     private Long countryId;
+    private Long userBankId;
     private String firstname;
     private String lastname;
     private String address;

@@ -20,6 +20,7 @@ public class ProjectOwner extends CoreEntity {
     private Long sectorId;
     private Long userId;
     private Long lgaId;
+    private Long userBankId;
     private Long stateId;
     private Long countryId;
     private String firstname;
@@ -35,6 +36,8 @@ public class ProjectOwner extends CoreEntity {
     private Boolean isCorp;
     private String corporateName;
     private String accountManager;
+    private String idCard;
+    private String idNumber;
 
     @Transient
     private String lga;

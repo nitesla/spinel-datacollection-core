@@ -30,6 +30,7 @@ public class Enumerator extends CoreEntity {
     private String pictureUrl;
     private Long lgaId;
     private Long countryId;
+    private Long userBankId;
     private String address;
     private boolean isCorp;
     private Long organisationTypeId;
@@ -49,6 +50,8 @@ public class Enumerator extends CoreEntity {
     private String backOfId;
     private String verificationStatus;
     private VerificationStatus verification;
+    private String idCard;
+    private String idNumber;
     private LocalDateTime registrationDate = LocalDateTime.now();
 
     @Transient

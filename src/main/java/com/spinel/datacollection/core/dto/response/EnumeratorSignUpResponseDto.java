@@ -23,5 +23,6 @@ public class EnumeratorSignUpResponseDto {
     private String corporateName;
     private String username;
     private Long projectRoleId;
+    private Long userBankId;
     private VerificationStatus verification;
 }

@@ -14,6 +14,7 @@ public class EnumeratorSignUpDto {
     private String password;
     private Boolean isCorp;
     private String corporateName;
+    private Long userBankId;
 //    private VerificationStatus verification;
     private Long organisationTypeId;
     private Long projectRoleId;
