@@ -7,11 +7,15 @@ import lombok.Data;
 @Builder
 public class UpdateProjectOwnerDto {
     private Long id;
-    private String firstName;
-    private String lastName;
+    private String firstname;
+    private String lastname;
     private String phone;
     private String email;
-    private Long projectCategoryId;
     private String gender;
     private String pictureUrl;
+    private String address;
+    private Long sectorId;
+    private Long countryId;
+    private Long stateId;
+    private Long lgaId;
 }

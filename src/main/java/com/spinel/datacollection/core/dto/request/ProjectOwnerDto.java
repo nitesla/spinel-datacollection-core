@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Builder
 public class ProjectOwnerDto {
     private Long id;
-    private Long organisationTypeId;
+    private Long sectorId;
     private Long userId;
     private Long lgaId;
     private String firstname;

@@ -17,9 +17,11 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 public class ProjectOwner extends CoreEntity {
-    private Long organisationTypeId;
+    private Long sectorId;
     private Long userId;
     private Long lgaId;
+    private Long stateId;
+    private Long countryId;
     private String firstname;
     private String lastname;
     private String address;
@@ -37,7 +39,11 @@ public class ProjectOwner extends CoreEntity {
     @Transient
     private String lga;
     @Transient
-    private String organisationType;
+    private String state;
+    @Transient
+    private String country;
+    @Transient
+    private String sector;
     @Transient
     private boolean userIsActive;
     @Transient

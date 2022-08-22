@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class ProjectOwnerSignUpResponseDto {
     private Long id;
-    private Long projectOwnerId;
+    private Long sectorId;
     private String firstName;
     private String lastName;
     private String email;

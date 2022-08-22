@@ -13,9 +13,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class ProjectOwnerResponseDto {
     private Long id;
-    private Long organisationTypeId;
+    private Long sectorId;
     private Long userId;
     private Long lgaId;
+    private Long stateId;
+    private Long countryId;
     private String firstname;
     private String lastname;
     private String address;
