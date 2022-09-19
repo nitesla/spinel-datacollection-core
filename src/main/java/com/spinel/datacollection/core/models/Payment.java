@@ -34,4 +34,9 @@ public class Payment {
     private LocalDateTime transactionDate;
     private BigDecimal amountVerified;
     private BigDecimal amount;
+    private String thirdPartyCode;
+    private String paymentProvider;
+    private String paymentProviderId;
+
+
 }

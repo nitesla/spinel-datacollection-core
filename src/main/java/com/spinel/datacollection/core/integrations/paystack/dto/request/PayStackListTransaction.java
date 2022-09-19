@@ -3,7 +3,7 @@ package com.spinel.datacollection.core.integrations.paystack.dto.request;
 import lombok.Data;
 
 @Data
-public class ListTransaction {
+public class PayStackListTransaction {
     private int perPage;
     private int page;
     private String from;

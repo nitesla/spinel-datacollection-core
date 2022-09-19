@@ -5,7 +5,7 @@ import lombok.Data;
 import java.math.BigInteger;
 
 @Data
-public class InitializeTransaction {
+public class PayStackInitializeTransaction {
     private BigInteger amount;
     private String email;
     private String reference;
