@@ -23,6 +23,7 @@ public class Form extends CoreEntity {
     private Long projectOwnerId;
     private Long userId;
     private Boolean isPublic;
+    private String projectId;
 
 
 }

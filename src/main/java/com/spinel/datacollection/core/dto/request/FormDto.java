@@ -15,5 +15,6 @@ public class FormDto {
     private String formField;
     private Long userId;
     private boolean isPublic;
+    private String projectId;
 
 }
