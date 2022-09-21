@@ -1,13 +1,12 @@
-package com.sabi.datacollection.core.dto.request;
+package com.spinel.datacollection.core.dto.request;
 
-import com.sabi.datacollection.core.enums.GeneralStatus;
+import com.spinel.datacollection.core.enums.GeneralStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotNull;
-import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -24,4 +23,5 @@ public class JobRequestDto {
 //    private LocalDateTime requestedDate;
 //    private LocalDateTime responseDate;
     private String comments;
+    private String email;
 }

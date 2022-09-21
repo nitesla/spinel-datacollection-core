@@ -1,6 +1,6 @@
 package com.spinel.datacollection.core.models;
 
-import com.sabi.datacollection.core.enums.GeneralStatus;
+import com.spinel.datacollection.core.enums.GeneralStatus;
 import com.spinel.framework.models.CoreEntity;
 import lombok.*;
 import org.hibernate.Hibernate;
@@ -24,6 +24,7 @@ public class JobRequest extends CoreEntity {
     private LocalDateTime requestedDate;
     private LocalDateTime responseDate;
     private String comments;
+    private String email;
 
     @Override
     public boolean equals(Object o) {

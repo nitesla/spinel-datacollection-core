@@ -1,4 +1,4 @@
-package com.sabi.datacollection.core.dto.response;
+package com.spinel.datacollection.core.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

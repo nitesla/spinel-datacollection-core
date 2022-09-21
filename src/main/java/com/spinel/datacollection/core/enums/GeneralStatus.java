@@ -1,4 +1,4 @@
-package com.sabi.datacollection.core.enums;
+package com.spinel.datacollection.core.enums;
 
 public enum GeneralStatus {
     PENDING,
