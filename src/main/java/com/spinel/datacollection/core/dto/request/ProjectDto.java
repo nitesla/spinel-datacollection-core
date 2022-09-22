@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -12,7 +14,9 @@ import lombok.NoArgsConstructor;
 public class ProjectDto {
     private Long id;
     private String name;
-    private Long projectCategoryId;
+    private List<Long> projectCategoryIds;
+    private String description;
+    private List<SubmissionDto> submissions;
     private String status;
     private String startDate;
     private String endDate;

@@ -1,14 +1,15 @@
 package com.spinel.datacollection.core.dto.payment.response;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Builder
-public class VerifyTransactionResponse {
+public class TransactionResponse {
     private String paymentProviderId;
     private String customerID;
     private String status;

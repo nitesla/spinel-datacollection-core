@@ -22,4 +22,5 @@ public class PaymentResponseDto {
     private LocalDateTime transactionDate;
     private BigDecimal amountVerified;
     private BigDecimal amount;
+    private String paymentProviderId;
 }
