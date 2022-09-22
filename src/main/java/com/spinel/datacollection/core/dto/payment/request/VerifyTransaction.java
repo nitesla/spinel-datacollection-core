@@ -5,4 +5,5 @@ import lombok.Data;
 @Data
 public class VerifyTransaction {
     private String reference;
+    private Boolean isFundWallet;
 }
