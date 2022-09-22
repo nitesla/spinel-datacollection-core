@@ -3,10 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-pom.xml
-workspace.xml
-*misc.xml
-misc.xml
+!**/.idea/
 ### STS ###
 .apt_generated
 .classpath
@@ -22,10 +19,9 @@ misc.xml
 *.iws
 *.iml
 *.ipr
-application-local.properties
-*workspace.xml
-jarRepositories.xml
-encodings.xml
+workspace.xml
+.idea/workspace.xml
+pom.xml
 
 ### NetBeans ###
 /nbproject/private/
