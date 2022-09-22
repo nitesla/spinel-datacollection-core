@@ -1,6 +1,6 @@
-package com.sabi.datacollection.core.dto.response;
+package com.spinel.datacollection.core.dto.response;
 
-import com.sabi.datacollection.core.enums.GeneralStatus;
+import com.spinel.datacollection.core.enums.GeneralStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -25,4 +25,5 @@ public class JobRequestResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private String email;
 }
