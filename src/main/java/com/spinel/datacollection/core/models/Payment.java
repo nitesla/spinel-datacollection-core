@@ -37,6 +37,7 @@ public class Payment {
     private String thirdPartyCode;
     private String paymentProvider;
     private String paymentProviderId;
+    private Long userId;
 
 
 }
