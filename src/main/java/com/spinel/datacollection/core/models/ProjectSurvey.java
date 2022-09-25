@@ -10,7 +10,7 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class ProjectFile extends CoreEntity {
+public class ProjectSurvey extends CoreEntity {
     private Long projectId;
-    private String file;
+    private String survey;
 }

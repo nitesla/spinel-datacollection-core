@@ -14,16 +14,19 @@ import java.util.List;
 public class ProjectDto {
     private Long id;
     private String name;
-    private List<Long> projectCategoryIds;
     private String description;
-    private List<SubmissionDto> submissions;
-    private String status;
-    private String startDate;
-    private String endDate;
-    private Long sectorId;
-    private String imageQuality;
-    private Boolean isLocationBased;
+    private List<String> surveys;
+    private int submissions;
     private Long projectOwnerId;
-    private boolean isPublic;
-    private boolean isOpened;
+    private String status;
+    private int duration;
+    private boolean enableTeams = false;
+    private boolean enableGeoFencing = false;
+    private boolean enableEnumerators = false;
+    private boolean enableAcceptanceCriteria = false;
+
+
+    private List<Long> projectCategoryIds;
+    private List<String> projectFiles;
+    private List<String> projectMedias;
 }
