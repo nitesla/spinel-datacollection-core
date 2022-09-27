@@ -41,8 +41,9 @@ public class ProjectResponseDto {
     private boolean enableEnumerators;
     private boolean enableAcceptanceCriteria;
 
-    @Transient
-    private List<String> projectCategories;
+    private String projectCategory;
+    private String projectCategory2;
+    private String projectCategory3;
 
     @Transient
     private List<String> projectMedias;
