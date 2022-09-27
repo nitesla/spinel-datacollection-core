@@ -1,7 +1,6 @@
 package com.spinel.datacollection.core.models;
 
 
-
 import com.spinel.framework.models.CoreEntity;
 import lombok.*;
 
@@ -20,10 +19,15 @@ public class Form extends CoreEntity {
     private String version;
     private String description;
     private String formField;
-    private Long projectOwnerId;
+//    private Long projectOwnerId;
     private Long userId;
     private Boolean isPublic;
     private Long projectId;
+//
+//    @Override @JsonIgnore
+//    public List<String> getDefaultSearchFields() {
+//        return Arrays.asList("name","isActive","description","userId","projectOwnerId","projectId");
+//    }
 
 
 }
