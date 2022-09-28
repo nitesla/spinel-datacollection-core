@@ -5,6 +5,8 @@ import com.spinel.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Transient;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -18,6 +20,7 @@ import java.util.List;
 public class Project extends CoreEntity {
     private String name;
     private String description;
+    @Enumerated(EnumType.STRING)
     private Status status;
     private LocalDateTime startDate;
     private LocalDateTime endDate;

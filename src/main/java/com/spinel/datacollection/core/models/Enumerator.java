@@ -7,9 +7,7 @@ import com.spinel.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 
@@ -24,6 +22,7 @@ public class Enumerator extends CoreEntity {
     private String lastName;
     private Long projectRoleId;
     private String referralCode;
+    @Enumerated(EnumType.STRING)
     private EnumeratorStatus status;
     private int rating;
     private String cac;
@@ -49,6 +48,7 @@ public class Enumerator extends CoreEntity {
     private String frontOfId;
     private String backOfId;
     private String verificationStatus;
+    @Enumerated(EnumType.STRING)
     private VerificationStatus verification;
     private String idCard;
     private String idNumber;

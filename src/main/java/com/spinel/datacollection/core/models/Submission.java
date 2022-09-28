@@ -7,6 +7,8 @@ import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Transient;
 import java.time.LocalDateTime;
 import java.util.Objects;
@@ -22,6 +24,7 @@ public class Submission extends CoreEntity {
 
     private long projectId;
     private Long formId;
+    @Enumerated(EnumType.STRING)
     private SubmissionStatus status;
     private Long enumeratorId;
     private LocalDateTime submissionDate;
