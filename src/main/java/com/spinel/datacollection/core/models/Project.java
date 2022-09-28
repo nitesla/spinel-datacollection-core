@@ -49,9 +49,6 @@ public class Project extends CoreEntity {
     private String pictureUrl;
 
     @Transient
-    private List<String> projectCategories;
-
-    @Transient
     private List<String> projectMedias;
 
     @Transient
@@ -59,5 +56,10 @@ public class Project extends CoreEntity {
 
     @Transient
     private List<String> projectSurveys;
+
+    private String projectCategory;
+    private String projectCategory2;
+    private String projectCategory3;
+
 
 }
