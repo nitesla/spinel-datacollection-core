@@ -3,8 +3,9 @@ package com.spinel.datacollection.core.integrations.paystack.dto.response;
 import lombok.Data;
 
 @Data
-public class PayStackResponse {
+public class PayStackResolveAccountNumberResponse {
     private boolean status;
     private String message;
-    private Object data;
+    private PayStackResolveAccountNumberData data;
 }
+
