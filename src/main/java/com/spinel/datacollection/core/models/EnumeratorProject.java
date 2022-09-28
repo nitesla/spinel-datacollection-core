@@ -8,6 +8,8 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import java.time.LocalDateTime;
 
 @NoArgsConstructor
@@ -20,6 +22,7 @@ public class EnumeratorProject extends CoreEntity {
     private Long enumeratorId;
     private LocalDateTime assignedDate;
     private LocalDateTime completedDate;
+    @Enumerated(EnumType.STRING)
     private Status status;
     private Boolean isLocationBound;
     private String timeLine;
