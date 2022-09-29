@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -15,11 +16,14 @@ import java.util.List;
 public class GetRequestDto {
     private List<FilterCriteria> filterCriteria;
     private String sortDirection;
-    private String sortBy;
-    private String groupBy;
-    private Integer listCount;
+    private String sortParameter;
+    private List<GroupBy> groupBy;
     private Integer topCount;
     private BigDecimal topPercentage;
+    @NotNull(message = "isPaginated is required")
+    private boolean isPaginated;
+    @NotNull(message = "isFilter is required")
+    private boolean isFiltered;
     private Integer page;
     private Integer pageSize;
     private List<FilterDate> filterDate;

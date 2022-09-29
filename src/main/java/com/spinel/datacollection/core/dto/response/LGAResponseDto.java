@@ -7,7 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 
 @AllArgsConstructor
@@ -25,9 +25,9 @@ public class LGAResponseDto {
 
     private String stateName;
 
-    private LocalDateTime createdDate;
+    private LocalDate createdDate;
 
-    private LocalDateTime updatedDate;
+    private LocalDate updatedDate;
 
     private Long createdBy;
 
