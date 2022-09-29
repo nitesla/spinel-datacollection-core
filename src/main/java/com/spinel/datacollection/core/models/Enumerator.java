@@ -48,7 +48,6 @@ public class Enumerator extends CoreEntity {
     private String frontOfId;
     private String backOfId;
     private String verificationStatus;
-    @Enumerated(EnumType.STRING)
     private VerificationStatus verification;
     private String idCard;
     private String idNumber;
