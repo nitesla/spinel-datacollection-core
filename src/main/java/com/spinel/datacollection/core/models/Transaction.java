@@ -2,7 +2,6 @@ package com.spinel.datacollection.core.models;
 
 
 import com.spinel.datacollection.core.enums.ActionType;
-import com.spinel.datacollection.core.enums.Status;
 import com.spinel.datacollection.core.enums.TransactionType;
 import com.spinel.framework.models.CoreEntity;
 import com.spinel.framework.models.User;
@@ -37,8 +36,8 @@ public class Transaction extends CoreEntity {
     private Long receiverId;
     @Enumerated(EnumType.STRING)
     private TransactionType transactionType;
-    @Enumerated(EnumType.STRING)
-    private Status status;
+    private String status;
+    private Long userId;
 
     @Transient
     private Wallet wallet;
