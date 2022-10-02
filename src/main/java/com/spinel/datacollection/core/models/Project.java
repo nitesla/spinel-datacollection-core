@@ -59,6 +59,10 @@ public class Project extends CoreEntity {
 
     @Transient
     private List<String> projectSurveys;
+    @Transient
+    private Long roleId;
+    @Transient
+    private String roleName;
 
     private String projectCategory;
     private String projectCategory2;
