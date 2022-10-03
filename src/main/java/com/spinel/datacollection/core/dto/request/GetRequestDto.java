@@ -17,7 +17,7 @@ public class GetRequestDto {
     private List<FilterCriteria> filterCriteria;
     private String sortDirection;
     private String sortParameter;
-    private List<GroupBy> groupBy;
+    private GroupBy groupBy;
     private Integer topCount;
     private BigDecimal topPercentage;
     @NotNull(message = "isPaginated is required")
