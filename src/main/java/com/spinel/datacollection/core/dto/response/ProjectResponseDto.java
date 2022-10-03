@@ -45,12 +45,10 @@ public class ProjectResponseDto {
     private String projectCategory2;
     private String projectCategory3;
 
-    @Transient
+
+    private Long roleId;
+    private String roleName;
     private List<String> projectMedias;
-
-    @Transient
     private List<String> projectFiles;
-
-    @Transient
     private List<String> projectSurveys;
 }

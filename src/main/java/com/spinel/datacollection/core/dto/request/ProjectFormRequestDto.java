@@ -14,5 +14,6 @@ public class ProjectFormRequestDto {
     private Long id;
     private Long projectId;
     private Long formId;
-    private Status status;
+    private String status;
+    private int target;
 }

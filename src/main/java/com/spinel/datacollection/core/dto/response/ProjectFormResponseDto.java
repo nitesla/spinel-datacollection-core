@@ -16,5 +16,6 @@ public class ProjectFormResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
-    private Status status;
+    private String status;
+    private int target;
 }
