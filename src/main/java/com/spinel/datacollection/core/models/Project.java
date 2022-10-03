@@ -20,7 +20,7 @@ import java.util.List;
 public class Project extends CoreEntity {
     private String name;
     private String description;
-    @Enumerated(EnumType.STRING)
+//    @Enumerated(EnumType.STRING)
     private Status status;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
@@ -59,6 +59,10 @@ public class Project extends CoreEntity {
 
     @Transient
     private List<String> projectSurveys;
+    @Transient
+    private Long roleId;
+    @Transient
+    private String roleName;
 
     private String projectCategory;
     private String projectCategory2;

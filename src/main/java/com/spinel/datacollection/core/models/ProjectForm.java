@@ -19,6 +19,6 @@ import javax.persistence.Enumerated;
 public class ProjectForm extends CoreEntity {
     private Long projectId;
     private Long formId;
-    @Enumerated(EnumType.STRING)
-    private Status status;
+    private String status;
+    private int target;
 }
